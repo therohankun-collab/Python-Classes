@@ -1,0 +1,31 @@
+num = 29
+a = int(input("Enter A Number Between 1 And 50:"))
+while a == num:
+    print("You Are Correct!")
+    i = 0
+else:
+   
+ b = input("Hint?")
+if b == "Hint":
+    c = input("Enter The Number. You Have 5 Attempts ")
+    if c == range (1,6):
+        print("Ice Cold!")
+    if c == range (5,11):    
+        print("Cold!")
+    if c == range (10,21):
+        print("Warm!")
+    if c == range (20,31): 
+        print("Hot!") 
+    if c == range (30,41):
+        print("Warm!")
+    if c == range (40,46):    
+        print("Cold!")
+    if c == range (46,51):
+        print("Warm!")
+    else:
+        print("Invalid Number")
+else:
+    print("You Lost All Attempts!")
+    print("The Secret Number Was: ", 29)              
+
+ 

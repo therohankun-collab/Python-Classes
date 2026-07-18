@@ -10,9 +10,9 @@ count = 0
 if number == 0:
     count = 1
 else:
-    # Chop off the last digit one by one using a while loop
+
     while number > 0:
         number = number // 10  # This removes the last digit
-        count += 1             # Add 1 to our digit count
+        count += 1             
 
 print(f"Total digits: {count}")
