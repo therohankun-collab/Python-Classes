@@ -69,13 +69,13 @@ except ZeroDivisionError:
 print("Welcome To The Calculator! What DO You Want To Choose? \n 1) Addition 2) Subtraction 3) Multiplication 4) Division")
 n = int(input("Enter Your Choice: "))
 if n == 1:
-      add
+      add()
 if n == 2:
-        subtract
+        subtract()
 if n == 3:
-        multiply 
+        multiply ()
 if n == 4:
-        divide
+        divide()
     
 
 
